@@ -26,11 +26,11 @@ ccache -M 50G
 
 #Clear ccache
 #export CCACHE_EXEC=$(which ccache)
-#export CCACHE_DIR=/var/lib/jenkins/ccache/$user
+#export CCACHE_DIR=/home/kunalshah/ccache
 #ccache -C
 #export USE_CCACHE=1
 #export CCACHE_COMPRESS=1
-#ccache -M 200G
+#ccache -M 50G
 #wait
 #echo -e ${grn}"CCACHE Cleared"${txtrst};
 
